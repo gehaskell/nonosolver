@@ -56,9 +56,7 @@ public class TextPanel extends JPanel {
 				group = new JPanel();
 				setupPanel(group,grayBorder);
 			}			
-		}
-		
-		
+		}	
 	}
 	
 	private void setupPanel(JPanel panel, Border border) {
@@ -104,8 +102,7 @@ public class TextPanel extends JPanel {
 	}
 	
 	public static void main(String args[]) {
-    	GUINono gui = new GUINono();
-    	gui.setVisible(true);
-
+    		GUINono gui = new GUINono();
+    		gui.setVisible(true);
     }
 }
